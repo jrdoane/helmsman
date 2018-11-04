@@ -1,11 +1,6 @@
 (ns helmsman.routes
   (:require [helmsman.uri :as uri]
-            [compojure.core :as compojure]
-            [compojure.route]
-            [clojure.set]
-            [taoensso.timbre :as timbre]))
-
-(timbre/refer-timbre)
+            [clojure.set]))
 
 (def http-methods
   #{:get :head :post

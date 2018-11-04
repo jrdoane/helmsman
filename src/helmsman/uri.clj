@@ -1,10 +1,8 @@
-(ns helmsman.uri
-  (:require [clojure.string :as string]))
+(ns helmsman.uri)
 
 (defn clean-uri-string
   "Removes all slashes from the beginning and end of the uri string."
   (^String [^String uri-string]
-   ;;; TODO: Convert this to a non-regex version.
    (apply
      str
      (let [uri-vector (vec uri-string)

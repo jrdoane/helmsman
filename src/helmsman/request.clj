@@ -1,7 +1,6 @@
 (ns helmsman.request
   (:require
-    [helmsman.uri :as uri]
-    [ring.middleware.params]))
+    [helmsman.uri :as uri]))
 
 (defn prepare-keys
   [i]
