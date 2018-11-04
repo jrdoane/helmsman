@@ -208,6 +208,6 @@
       (let [request (h-request/default-wrappers request routing-set)]
         ((get-in request [:helmsman :current-route :full-route-fn]
                  ;;; Figure out a better 404 method than this.
-                 (constantly {:status 404 :body "Not found."}))
+                 (constantly nil))
          request)))))
 

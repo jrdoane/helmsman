@@ -86,7 +86,7 @@
   could be useful to the developer, such as creating relative URIs, or even
   programatically describing a context of routes using meta-data. The idea that
   this only occurs once, when the request is coming in. It shouldn't be a
-  middleware because we don't care about the intput."
+  middleware because we don't care about the output."
   [request routing-set]
   (-> request
       wrap-path
