@@ -1,10 +1,12 @@
 # Helmsman
 #### It's time to take the helm and navigate your web server!
 
-## Dependencies?!
-Lets get this out of the way.
+## Dependency
+[![Clojars Project](https://img.shields.io/clojars/v/io.doane/helmsman.svg)](https://clojars.org/io.doane/helmsman)
 
-[![Clojars Project](https://img.shields.io/clojars/v/org.vlacs/helmsman.svg)](https://clojars.org/org.vlacs/helmsman)
+```clojure
+[io.doane/helmsman "1.1.0-SNAPSHOT"]
+```
 
 ## What is Helmsman?
 Helmsman is a Ring compliant HTTP routing tool that leverages routes by keeping
