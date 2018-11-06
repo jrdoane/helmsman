@@ -90,7 +90,9 @@
     (filterv 
       (fn normalize-path-filter-fn
         [i]
-        (or (keyword? i) (string? i)))
+        (or (keyword? i)
+            (and (string? i)
+                 (not= i ""))))
       (flatten uri-path))))
 
 (defn sub-path-item
