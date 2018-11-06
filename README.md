@@ -29,7 +29,7 @@ These are not routes but, have the benefit being able to clump routes together
 for the purposes of common paths or for common middleware. Providing paths is
 not a requirement for contexts where it was while Helmsman was in alpha.
 
-Where ```...`` represents additional, nested routes, middleware, or contexts,
+Where ```...``` represents additional, nested routes, middleware, or contexts,
 the following would be considered a **context**.
 ```clojure
 [...]
@@ -174,7 +174,7 @@ function as substitutions.
 
 ### Copyright and credits
  - VLACS© <jdoane@vlacs.org> 2014
- - Jon Doane <jrdoane@gmail.com> 2014-2016
+ - Jon Doane <jrdoane@gmail.com> 2014-2018
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
