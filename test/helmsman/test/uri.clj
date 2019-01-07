@@ -2,6 +2,7 @@
   (:require
     [helmsman.uri]
     [ring.util.codec]
+    [clojure.set]
     [clojure.test :as t]
     [clojure.test.check :as tc]
     [clojure.test.check.generators :as gen]
